@@ -11,8 +11,8 @@ Top as white: tw.png\
 Bottom as white: bw.png
 
 # Nerfed and how to fixed
-For chess.com to not detected this bot as a cheating account, here are some special settings that I used:\
-- Set the Stockfish ELO to <opponent's ELO> + 300 (or 1300 if cannot detect the opponent ELO> (line 146: main.py)\
+For chess.com to not detected this bot as a cheating account, here are some special settings that I used:
+- Set the Stockfish ELO to <opponent's ELO> + 300 (or 1300 if cannot detect the opponent ELO> (line 146: main.py)
 - Randomize the time to make the move in this range (0, currentTime / 10) (line 301: main.py)\
 You can fix it if you like.
 
